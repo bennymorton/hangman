@@ -5,4 +5,4 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 So far the program takes in a user input, checks if the length of it is 1 and that it is in the alphabet, and prints a corresponding message if so, and also if it isn't.
 
-So far the program takes in a user input, checks if the length of it is 1 and that it is in the alphabet, and prints a corresponding message if so, and also if it isn't.
+All of this is contained in two separate functions, one to get the input and one to verify the input.
