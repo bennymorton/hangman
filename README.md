@@ -3,3 +3,4 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
+So far the program takes in a user input, checks if the length of it is 1 and that it is in the alphabet, and prints a corresponding message if so, and also if it isn't.
