@@ -10,9 +10,12 @@ class Hangman:
         self.word = random.choice(self.word_list)
 
         self.word_guessed = []
+        char_list = []
+
         for i in range(len(self.word)):
             self.word_guessed = self.word_guessed.append('_')
-        
-        self.num_letters = len(set((letter for letter in self.word)))
+            char_list.append(self.word[i])
+
+        self.num_letters = set((char_list))
 
         self.list_of_guesses = []
