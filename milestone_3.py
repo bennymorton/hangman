@@ -4,7 +4,7 @@ word_list = ['bananas', 'blueberries', 'apples', 'pears', 'raspberries']
 word = random.choice(word_list)
 
 def ask_for_input():
-    while(True):
+    while True:
         guess = input("Guess a letter \n")
         if len(guess) == 1 and guess.isalpha():
             break
