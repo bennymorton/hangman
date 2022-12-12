@@ -1,6 +1,8 @@
 import random
 
-word_list = ['bananas', 'blueberries', 'apples', 'pears', 'raspberries']
+word_list = ['banana']
+
+# 'blueberries', 'apples', 'pears', 'raspberries']
 
 class Hangman:
     def __init__(self, word_list, num_lives=5):
@@ -49,7 +51,7 @@ def play_game(word_list):
         elif game.num_letters > 0:
             game.ask_for_input()
         else:
-            print('Congratulations! You won the game!')
+            print('Congratulations. You won the game!')
             break
 
 play_game(word_list)
